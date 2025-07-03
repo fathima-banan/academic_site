@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Leadership | ICST University</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Animate.css for animations -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <style>
+        body {
+            background-color: #f9f9f9;
+            color: #1d2458;
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        h1,
+        h2 {
+            font-weight: 700;
+        }
+
+        .section-title {
+            color: #3c9b94;
+            margin-bottom: 1.5rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .leader-card {
+            background: white;
+            border-radius: 0.5rem;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+            padding: 1.5rem;
+            text-align: center;
+            transition: transform 0.4s ease;
+        }
+
+        .leader-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+        }
+
+        .leader-img {
+            width: 140px;
+            height: 140px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin-bottom: 1rem;
+            border: 3px solid #3c9b94;
+        }
+
+        .leader-name {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: #1d2458;
+            margin-bottom: 0.25rem;
+        }
+
+        .leader-title {
+            font-size: 1rem;
+            color: #3c9b94;
+            margin-bottom: 0.75rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #1D2458;">
+        <div class="container">
+            <a class="navbar-brand" href="#" style="text-align: center;">
+                <img src="/images/ICST-Logo.png" alt="ICST University Logo" style="width: 150px;" />
+                <div style="font-size: small;">International Campus<br>Of Science And Technology
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto">
+
+                    <!-- Home -->
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/">Home</a>
+                    </li>
+
+                    <!-- About Us -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            About Us
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/vision.html">Mission & Vision</a></li>
+                            <li><a class="dropdown-item" href="/history.html">History</a></li>
+                            <li><a class="dropdown-item active" href="/leadership.html">Leadership</a></li>
+                            <li><a class="dropdown-item" href="/acc.html">Accreditation</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- Academics -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Academics
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/programs.html">Undergraduate Programs</a></li>
+                            <li><a class="dropdown-item" href="/programs2.html">Graduate Programs</a></li>
+                            <li><a class="dropdown-item" href="/Research.html">Research</a></li>
+                            <li><a class="dropdown-item" href="/calender.html">Academic Calendar</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- Admissions -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Admissions
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/admission1.html">Undergraduate Admission</a></li>
+                            <li><a class="dropdown-item" href="/admission2.html">Graduate Admission</a></li>
+                            <li><a class="dropdown-item" href="/fees.html">Tuition & Fees</a></li>
+                            <li><a class="dropdown-item" href="/aid.html">Financial Aid</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- Campus Life -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Campus Life
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/life.html">Student Life</a></li>
+                            <li><a class="dropdown-item" href="/gallery.html">Gallery</a></li>
+                            <li><a class="dropdown-item" href="/housing.html">Housing</a></li>
+                            <li><a class="dropdown-item" href="/clubs.html">Clubs & Organizations</a></li>
+                            <li><a class="dropdown-item" href="/events.html">Events</a></li>
+                            <li><a class="dropdown-item" href="/health.html">Health & Wellness</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- Contact -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contact.html">Contact</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="bg-primary text-white text-center py-5" style="background-color: #1D2458;">
+        <div class="container">
+            <h1 class="display-4 fw-bold animate__animated animate__fadeInDown">Leadership</h1>
+            <p class="lead animate__animated animate__fadeInUp animate__delay-1s">Meet the dedicated team steering
+                ICST University</p>
+        </div>
+    </header>
+
+    <!-- Leadership Section -->
+    <main class="container my-5">
+        <div class="row g-4 animate__animated animate__fadeInUp">
+            <!-- Leader 1 -->
+            <div class="col-md-4">
+                <div class="leader-card">
+                    <img src="/images/person1.jpeg" alt="Prof. Samantha Perera" class="leader-img" />
+                    <div class="leader-name">Prof. Samantha Perera</div>
+                    <div class="leader-title">Chancellor</div>
+                    <p>Prof. Perera brings over 30 years of academic leadership and research excellence, guiding ELU’s
+                        strategic vision.</p>
+                </div>
+            </div>
+
+            <!-- Leader 2 -->
+            <div class="col-md-4">
+                <div class="leader-card">
+                    <img src="/images/person2.png" alt="Dr. Nimal Fernando" class="leader-img" />
+                    <div class="leader-name">Dr. Nimal Fernando</div>
+                    <div class="leader-title">Vice-Chancellor</div>
+                    <p>With a background in engineering and innovation, Dr. Fernando drives academic growth and
+                        community engagement.</p>
+                </div>
+            </div>
+
+            <!-- Leader 3 -->
+            <div class="col-md-4">
+                <div class="leader-card">
+                    <img src="/images/person3.jpg" alt="Ms. Anjali Silva" class="leader-img" />
+                    <div class="leader-name">Ms. Anjali Silva</div>
+                    <div class="leader-title">Registrar</div>
+                    <p>Ms. Silva ensures smooth administrative operations and student affairs, fostering an efficient
+                        university experience.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="py-5 bg-light text-dark">
+        <div class="container">
+            <div class="row gy-4">
+
+                <!-- Contact Info -->
+                <div class="col-md-4">
+                    <h5>ICST, University Park</h5>
+                    <p>+94 74 3444 444<br />
+                        <a href="mailto:admissions@icst.edu.lk" class="text-decoration-none">admissions@el.edu.lk</a>
+                    </p>
+                    <div>
+                        <a href="#" class="me-3 text-dark text-decoration-none">
+                            <i class="bi bi-facebook"></i> Facebook
+                        </a>
+                        <a href="#" class="text-dark text-decoration-none">
+                            <i class="bi bi-instagram"></i> Instagram
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="col-md-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="/life.html" class="text-dark text-decoration-none">Student Life</a></li>
+                        <li><a href="/history.html" class="text-dark text-decoration-none">About Us</a></li>
+                        <li><a href="/contact.html" class="text-dark text-decoration-none">Contact</a></li>
+                        <li><a href="/gallery.html" class="text-dark text-decoration-none">Gallery</a></li>
+                        <li><a href="/Research.html" class="text-dark text-decoration-none">Research</a></li>
+                    </ul>
+                </div>
+
+                <!-- Tagline -->
+                <div class="col-md-4 d-flex align-items-center">
+                    <p class="mb-0 fst-italic text-muted">@ICST No matter the challenges to come, we will
+                        remain
+                        connected through our core values</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4 text-center">
+        <div class="container">
+            <p class="mb-0">&copy; 2025 ICST. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true,
+        });
+    </script>
+</body>
+
+</html>
